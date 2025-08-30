@@ -81,7 +81,7 @@ model.summary()
 
 #train model
 
-EPOCHS = 15
+EPOCHS = 10
 INITIAL_EPOCH = 0
 
 history = model.fit(

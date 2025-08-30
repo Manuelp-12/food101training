@@ -103,7 +103,7 @@ model.compile(
 
 history_fine = model.fit(
     train_ds,
-    epochs=INITIAL_EPOCH+EPOCHS+15,  # continue training
+    epochs=INITIAL_EPOCH+EPOCHS+10,  # continue training
     initial_epoch=INITIAL_EPOCH+EPOCHS,
     validation_data=test_ds,
     callbacks=[checkpoint_cb]
